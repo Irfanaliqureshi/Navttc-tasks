@@ -1,1 +1,58 @@
 
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jun 09, 2023 at 10:55 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `first_database`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `first_project`
+--
+
+CREATE TABLE `first_project` (
+  `JOHNY` varchar(12345) 40000 5   33344,
+  `FRANK` varchar(33344) 30000 5  88866,
+  `JAMES` varchar(88866) 40000 4  77777,
+  `BORGS` varchar(7777) 30000  5  88866,
+  `ZHANG` varchar(55555) 35000 4  12345,
+  `TTTT` varchar(66666) 10000  1  33344 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `first_project`
+--
+ALTER TABLE `first_project`
+  ADD KEY `30000` (`FRANK`(768)),
+  ADD KEY `400000` (`JAMES`(768)),
+  ADD KEY `300000` (`BORGS`(768)),
+  ADD KEY `35000` (`ZHANG`(768)),
+  ADD KEY `10000` (`TTTT`(768));
+ALTER TABLE `first_project` ADD FULLTEXT KEY `40000` (`JOHNY`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
